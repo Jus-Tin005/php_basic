@@ -1,0 +1,23 @@
+
+XAMPP = X - Cross Platform
+	A - Apache
+	M - MariaDB
+	P - PHP
+	P - Perl
+
+
+Installation XAMPP server
+You can config your localhost in config.
+
+Installation Laravel framework 
+1.download composer
+2.need to confirn php.exe file in drive c.
+3.check cmd = composer
+4. cd C:\xampp\htdocs in cmd
+5.composer create-project laravel/laravel myfirstphp --prefer-dist  (must wait about 5mins)
+6.C:\xampp\htdocs\myfirstphp>
+7.php artisan serve
+8.http://127.0.0.1:8000
+9.ctrl + z (stop php artisan serve running)
+10.php artisan serve --port=8088 (prepare port)
+
